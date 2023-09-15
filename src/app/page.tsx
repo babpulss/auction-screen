@@ -18,28 +18,25 @@ export default function Home() {
         <LeftBidder />
         <LeftBidder />
       </section>
-      <section className=" border-2 px-5">
-        <div className="flex justify-around my-5 border-2">
+      <section className="grid grid-rows-[0.3fr_0.6fr_1.5fr_0.1fr_1fr] border-2 px-5">
+        <div className="flex justify-around items-center my-5 border-2">
           <p>enchant</p>
           <p>LEGION</p>
           <p>LOGO</p>
         </div>
-        <div className="flex justify-center items-center border-2 h-30 text-8xl">
+        <div className="flex justify-center items-center border-2 text-8xl">
           자낳대
         </div>
-        <div className="flex flex-col border-2 h-3/6 my-5 font-medium p-5 font-mono">
+        <div className="flex flex-col border-2 my-5 font-medium p-5 font-mono">
           <pre>서버에 로그인중입니다.</pre>
-          <pre>
-            서버에 정상적으로 <span className="text-green-600">로그인</span>
-            했습니다.
-          </pre>
+          <pre> 서버에 정상적으로 <span className="text-green-600">로그인</span> 했습니다.  </pre>
         </div>
-        <div className="flex justify-center items-center bg-orange-600 rounded-md h-10">
+        <div className="flex justify-center items-center bg-orange-600 rounded-md ">
           <p className="font-medium text-xl">TIME COUNT</p>
           <p className="text-black mx-4 ">|</p>
           <p className="text-black font-bold text-xl">15.00</p>
         </div>
-        <div className="border-2 mt-5 h-1/5">
+        <div className="border-2 my-5 ">
           <video src=""></video>
         </div>
       </section>
